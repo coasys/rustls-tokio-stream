@@ -13,7 +13,7 @@ trace = []
 
 [dependencies]
 tokio = { version = "1", features = [ "io-util", "net", "rt", "sync" ] }
-rustls = "0.21"
+rustls = "0.22.4"
 futures = "0.3"
 socket2 = "0.5"
 
